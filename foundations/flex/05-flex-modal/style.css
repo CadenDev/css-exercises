@@ -67,3 +67,33 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* Flex Display Code */
+
+.icon {
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.close-button {
+  margin-left: auto;
+}
+
+.modal {
+  display: flex;
+  padding: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  font-weight: 1000;
+  font-size: 18px;
+}
